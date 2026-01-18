@@ -52,6 +52,7 @@ java -jar hw7-dev.jar [(int) row number] [(int) column number] [(int) starting h
 Example:
 ```bash
 java -jar hw7-dev.jar 3 5 5 true docs/example.deck docs/example.deck user "control winrow simple"
+```
 
 ## Status
 Archived — maintained for portfolio and academic documentation purposes.

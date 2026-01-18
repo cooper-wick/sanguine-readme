@@ -53,5 +53,10 @@ Example:
 java -jar hw7-dev.jar 3 5 5 true docs/example.deck docs/example.deck user "control winrow simple"
 ```
 
+### Controls
+**Mouse Click** – Select/Deselect cards and board cells
+**Enter** – Confirm a move
+**Space** – Pass turn
+
 ## Status
 Archived — maintained for portfolio and academic documentation purposes.

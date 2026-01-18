@@ -5,7 +5,7 @@
 
 The project follows a **Model–View–Controller (MVC)** architecture and supports **pluggable AI agents**, allowing multiple strategies to be composed into a single decision-making agent. The game includes both a **GUI and textual view**, with full validation and feedback for player actions.
 
-This project was developed as part of a Northeastern's CS3100 course (previously Object-Oriented Design). As a result, the code is private to maintain the academic integrity of the class, but can be made available upon request for a limited time.
+This project was developed as part of a **Northeastern's CS3100** course (previously Object-Oriented Design). As a result, the code is private to maintain the academic integrity of the class, but can be made available upon request for a limited time.
 
 ## Key Features
 - Turn-based, two-player strategy gameplay  

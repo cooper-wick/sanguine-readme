@@ -17,30 +17,6 @@ This project was developed as part of a **Northeastern's CS3100** course (previo
 - Input validation and error handling
 - Full JUnit test suite 
 
-## Architecture Highlights
-### Model
-Represents the board, cells, cards, pawns, decks, and scoring logic.  
-Includes a read-only model interface to prevent view-side mutation.
-
-### View
-Provides both GUI and textual representations of the game state, displaying board ownership, scores, player hands, and endgame results. The current version of this game utilizes a GUI representation for intuitive use.
-
-### Controller 
-Coordinates actions between the Model and View based on Player input. The Controller does not distinguish between User and AI agent Players, allowing for easy configuration of User vs User, User vs AI, and AI vs AI games.
-
-### AI Agents
-Uses an **agent-based controller system** where each agent decides actions per turn.  
-Agents can be human-driven or AI-driven and may combine multiple strategies in priority order.
-
-The game supports multiple AI strategies that can be combined into a single agent:
-- **User Agent** – Accepts direct player input  
-- **Simple Agent** – Plays the first valid move  
-- **WinRow Agent** – Prioritizes winning individual rows  
-- **Control Agent** – Attempts to control board ownership  
-- **Default Agent** – Passes when no valid move exists  
-
-Agents are composed using a strategy chain, allowing complex behavior to emerge from simple components. The **User Agent** can not be composed with other agents.
-
 ## How to Play
 
 ### Quickstart
@@ -67,7 +43,31 @@ java -jar hw7-dev.jar 3 5 5 true docs/example.deck docs/example.deck user "contr
 - The game ends when both players pass consecutively.
 - The player with the **highest total score across all rows** wins. Ties are possible.
 
-## Images
+## Screenshots
+
+## Architecture Highlights
+### Model
+Represents the board, cells, cards, pawns, decks, and scoring logic.  
+Includes a read-only model interface to prevent view-side mutation.
+
+### View
+Provides both GUI and textual representations of the game state, displaying board ownership, scores, player hands, and endgame results. The current version of this game utilizes a GUI representation for intuitive use.
+
+### Controller 
+Coordinates actions between the Model and View based on Player input. The Controller does not distinguish between User and AI agent Players, allowing for easy configuration of User vs User, User vs AI, and AI vs AI games.
+
+### AI Agents
+Uses an **agent-based controller system** where each agent decides actions per turn.  
+Agents can be human-driven or AI-driven and may combine multiple strategies in priority order.
+
+The game supports multiple AI strategies that can be combined into a single agent:
+- **User Agent** – Accepts direct player input  
+- **Simple Agent** – Plays the first valid move  
+- **WinRow Agent** – Prioritizes winning individual rows  
+- **Control Agent** – Attempts to control board ownership  
+- **Default Agent** – Passes when no valid move exists  
+
+Agents are composed using a strategy chain, allowing complex behavior to emerge from simple components. The **User Agent** can not be composed with other agents.
 
 ## Status
 Archived — maintained for portfolio and academic documentation purposes.

@@ -46,10 +46,10 @@ Agents are composed using a strategy chain, allowing complex behavior to emerge 
 ### Quickstart
 To start a game, run the provided JAR file with command-line arguments specifying the board size, hand size, shuffle option, deck files, and player agents. 
 
-Example:
-```bash
 java -jar hw7-dev.jar [rowCount:int] [columnCount:int] [startingHandSize:int] [shuffleDecks:boolean] [redDeck:string] [blueDeck:string] [redAgentType:string] [blueAgentType:string]
 
+Example:
+```bash
 java -jar hw7-dev.jar 3 5 5 true docs/example.deck docs/example.deck user "control winrow simple"
 ```
 

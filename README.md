@@ -74,5 +74,5 @@ Archived — maintained for portfolio and academic documentation purposes.
 
 ## Contributors
 This project was developed using a **pair programming** workflow.
-- **Cooper Wick** ([@Volitantfive599](https://github.com/cooper-wick))
+- **Cooper Wick** ([@cooper-wick](https://github.com/cooper-wick))
 - **Wyatt Smith** ([@Wyatt-Smith1](https://github.com/Wyatt-Smith1))

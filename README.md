@@ -39,7 +39,7 @@ java -jar hw7-dev.jar 3 5 5 true docs/example.deck docs/example.deck user "contr
 - Players take turns either **playing a card** from their hand onto the board or **passing**.
 - Cards may only be played on cells owned by the player and only if that cell contains enough pawns to cover the card’s cost.
 - Each card contributes to the row score of the selected row and influences nearby cells (by adding pawns or taking enemy pawns).
-- Rows are scored in a winner takes all manner.
+- Each row is scored in a winner-takes-all manner.
 - The game ends when both players pass consecutively.
 - The player with the **highest total score across all rows** wins. Ties are possible.
 
@@ -67,7 +67,7 @@ The game supports multiple AI strategies that can be combined into a single agen
 - **Control Agent** – Attempts to control board ownership  
 - **Default Agent** – Passes when no valid move exists  
 
-Agents are composed using a strategy chain, allowing complex behavior to emerge from simple components. The **User Agent** can not be composed with other agents.
+Agents are composed using a strategy chain, allowing complex behavior to emerge from simple components. The **User Agent** cannot be composed with other agents.
 
 ## Status
 Archived — maintained for portfolio and academic documentation purposes.

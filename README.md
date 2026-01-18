@@ -44,10 +44,10 @@ java -jar hw7-dev.jar 3 5 5 true docs/example.deck docs/example.deck user "contr
 - The player with the **highest total score across all rows** wins. Ties are possible.
 
 ## Screenshots
-<img width="1919" height="1014" alt="Screenshot 2025-11-21 161830" src="https://github.com/user-attachments/assets/d2500d1f-2232-4934-958f-a55bd04b114e" />
-<img width="1916" height="1015" alt="Screenshot 2025-11-21 161935" src="https://github.com/user-attachments/assets/a752da14-3d0f-4b7e-86e8-b35dad65a271" />
-<img width="1913" height="1009" alt="Screenshot 2025-11-21 162028" src="https://github.com/user-attachments/assets/cee833b6-b858-4cf1-afa3-e079e4cef4fd" />
-<img width="1919" height="1008" alt="Screenshot 2025-11-21 162606" src="https://github.com/user-attachments/assets/7e0f68fb-338c-4f58-b7cc-cd9831d7ed76" />
+| | |
+|---|---|
+| ![](https://github.com/user-attachments/assets/d2500d1f-2232-4934-958f-a55bd04b114e) | ![](https://github.com/user-attachments/assets/a752da14-3d0f-4b7e-86e8-b35dad65a271) |
+| ![](https://github.com/user-attachments/assets/cee833b6-b858-4cf1-afa3-e079e4cef4fd) | ![](https://github.com/user-attachments/assets/7e0f68fb-338c-4f58-b7cc-cd9831d7ed76) |
 
 ## Architecture Highlights
 ### Model

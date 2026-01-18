@@ -71,3 +71,8 @@ java -jar hw7-dev.jar 3 5 5 true docs/example.deck docs/example.deck user "contr
 
 ## Status
 Archived — maintained for portfolio and academic documentation purposes.
+
+## Contributors
+This project was developed using a **pair programming** workflow.
+- **Cooper Wick** ([@Volitantfive599](https://github.com/Volitantfive599))
+- **Wyatt Smith** ([@Wyatt-Smith1](https://github.com/Wyatt-Smith1))

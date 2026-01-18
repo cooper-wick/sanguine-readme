@@ -28,7 +28,7 @@ Provides both GUI and textual representations of the game state, displaying boar
 ### Controller 
 Coordinates actions between the Model and View based on Player input. The Controller does not distinguish between User and AI agent Players, allowing for easy configuration of User vs User, User vs AI, and AI vs AI games.
 
-## AI Agents
+### AI Agents
 Uses an **agent-based controller system** where each agent decides actions per turn.  
 Agents can be human-driven or AI-driven and may combine multiple strategies in priority order.
 

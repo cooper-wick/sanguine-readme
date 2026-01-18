@@ -59,7 +59,9 @@ java -jar hw7-dev.jar 3 5 5 true docs/example.deck docs/example.deck user "contr
 - **Space** – Pass turn
 
 ### Rules Overview
+- [TODO]
 
+## Images
 
 ## Status
 Archived — maintained for portfolio and academic documentation purposes.

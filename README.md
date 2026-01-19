@@ -68,7 +68,7 @@ The game supports multiple AI strategies that can be combined into a single agen
 - **User Agent** – Accepts direct player input  
 - **Simple Agent** – Plays the first valid move  
 - **WinRow Agent** – Prioritizes winning individual rows  
-- **Control Agent** – Attempts to control board ownership  
+- **Control Agent** – Attempts to maximize ownership of cells on board
 - **Default Agent** – Passes when no valid move exists  
 
 Agents are composed using a strategy chain, allowing complex behavior to emerge from simple components. The **User Agent** cannot be composed with other agents.
